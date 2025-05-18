@@ -70,7 +70,7 @@ function Header() {
               className="w-[40px] h-[40px] rounded-full object-cover"
             />
             <span className="hidden md:block text-white">
-              Hello {user.name}!
+              Hello! {user.name}
             </span>
             <button
               onClick={() => logout({ returnTo: window.location.origin })}
@@ -82,7 +82,7 @@ function Header() {
         ) : (
           <>
             <img
-              src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" // your boy img URL here
+              src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" 
               alt="My Boy"
               className="w-[40px] h-[40px] rounded-full object-cover"
             />
